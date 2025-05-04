@@ -166,9 +166,6 @@ class _PaymentMethodBottomSheetWidgetState extends State<PaymentMethodBottomShee
                               },
                             ) : const SizedBox(),
 
-                            if(_paymentMethodIndex == 1)
-                              BringChangeInputWidget(amountController: _bringAmountController),
-
 
                             const SizedBox(height: Dimensions.paddingSizeSmall),
                             if(paymentList.isNotEmpty) Opacity(
